@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PersianAdminPanel.Application\PersianAdminPanel.Application.csproj" />
+    <ProjectReference Include="..\PersianAdminPanel.Core\PersianAdminPanel.Core.csproj" />
+    <ProjectReference Include="..\PersianAdminPanel.Infrastructure\PersianAdminPanel.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -5,9 +5,45 @@ VisualStudioVersion = 17.13.35828.75
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersianAdminPanel.Core", "src\PersianAdminPanel.Core\PersianAdminPanel.Core.csproj", "{6CE7B13C-8B62-4F1D-B1F5-75F050F9F7E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersianAdminPanel.Infrastructure", "src\PersianAdminPanel.Infrastructure\PersianAdminPanel.Infrastructure.csproj", "{98134A33-C520-48BF-B54C-FC5C91EC5FCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersianAdminPanel.Application", "src\PersianAdminPanel.Application\PersianAdminPanel.Application.csproj", "{F7D97613-21B3-4724-979D-4A323E5A57D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersianAdminPanel.Web", "src\PersianAdminPanel.Web\PersianAdminPanel.Web.csproj", "{F7EBB5ED-DE41-401F-A8D6-1490F1FC847F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6CE7B13C-8B62-4F1D-B1F5-75F050F9F7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE7B13C-8B62-4F1D-B1F5-75F050F9F7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE7B13C-8B62-4F1D-B1F5-75F050F9F7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE7B13C-8B62-4F1D-B1F5-75F050F9F7E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98134A33-C520-48BF-B54C-FC5C91EC5FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98134A33-C520-48BF-B54C-FC5C91EC5FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98134A33-C520-48BF-B54C-FC5C91EC5FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98134A33-C520-48BF-B54C-FC5C91EC5FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7D97613-21B3-4724-979D-4A323E5A57D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D97613-21B3-4724-979D-4A323E5A57D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D97613-21B3-4724-979D-4A323E5A57D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D97613-21B3-4724-979D-4A323E5A57D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7EBB5ED-DE41-401F-A8D6-1490F1FC847F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7EBB5ED-DE41-401F-A8D6-1490F1FC847F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7EBB5ED-DE41-401F-A8D6-1490F1FC847F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7EBB5ED-DE41-401F-A8D6-1490F1FC847F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6CE7B13C-8B62-4F1D-B1F5-75F050F9F7E0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{98134A33-C520-48BF-B54C-FC5C91EC5FCE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F7D97613-21B3-4724-979D-4A323E5A57D6} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F7EBB5ED-DE41-401F-A8D6-1490F1FC847F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1DA2B342-5AFE-4B76-85CE-D9015E30B0C9}
