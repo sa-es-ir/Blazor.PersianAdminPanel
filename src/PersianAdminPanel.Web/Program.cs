@@ -8,10 +8,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
 
+#region Inject other layers
+
 builder
     .Services
     .AddApplicationServices()
     .AddInfrastructureServices();
+
+#endregion
+
+#region Pipeline
 
 var app = builder.Build();
 
@@ -25,7 +31,6 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-
 app.UseAntiforgery();
 
 app.MapStaticAssets();
@@ -33,3 +38,5 @@ app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
 app.Run();
+
+#endregion
