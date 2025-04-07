@@ -1,8 +1,8 @@
 ﻿namespace PersianAdminPanel.Core.Common;
 
-public abstract class BaseEntity<TKey>
+public abstract class BaseEntity
 {
-    public TKey Id { get; private set; }
+    public long Id { get; protected set; }
 
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }

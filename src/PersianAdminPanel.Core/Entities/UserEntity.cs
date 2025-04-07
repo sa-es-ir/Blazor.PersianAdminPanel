@@ -2,23 +2,23 @@
 
 namespace PersianAdminPanel.Core.Entities;
 
-public class UserEntity : BaseEntity<Guid>
+public class UserEntity : BaseEntity
 {
     #region Ctor
 
     private UserEntity() { }
 
-    public UserEntity(string firstName, string laseName, string email)
+    public UserEntity(string firstName, string lastName, string email)
     {
         FirstName = firstName;
-        LaseName = laseName;
+        LastName = lastName;
         Email = email;
     }
 
     #endregion
 
     public string FirstName { get; private set; }
-    public string LaseName { get; private set; }
+    public string LastName { get; private set; }
     public string Email { get; private set; }
 }
 
