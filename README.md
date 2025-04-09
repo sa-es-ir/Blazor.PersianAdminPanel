@@ -9,9 +9,9 @@ A Blazor web application for Persian (Farsi) Admin Panel
 
 ### Required Entities:
 
-- Users `(IdentityUser)`
-- Roles `(IdentityRole)`
-- UserRoles (Many-To-Many) `(IdentityUserRoles)`
+- Users `(IdentityUser or custom)`
+- Roles `(IdentityRole or custom)`
+- UserRoles (Many-To-Many) `(IdentityUserRoles or custom)`
 - Courses
 - CourseLessons
 - Orders
